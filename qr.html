@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MySQL Data Fetch</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <audio id="clicking" src="mouse-click-153941.mp3"></audio>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="50" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon">
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Ma sequel</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link" href="qr.html">qr code</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+    <br><br>
+    <div class="row align-items-center justify-content-center">
+        <div class="col">
+            <h1 class="text-light center-align">Generate QR code</h1>
+        </div>
+    </div>
+    <br>
+    <div class="container-sm">
+        <form class="text-light">
+            <div class="row form-container">
+                <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" id="first-name-box" aria-describedby="emailHelp" placeholder="Insert Website URL here">   
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <br>
+    <div class="d-flex justify-content-center">
+        <button type="button" class="btn btn-primary">Generate</button>
+    </div>
+
+    <br><br><br>
+
+    
+    <script src="db.js"></script>
+  </body>
+</html>
