@@ -1,0 +1,57 @@
+.app-container {
+    display: flex;
+    flex-direction: column;   
+    padding: 20px;
+    margin-left: 120px;          
+    margin-top: 14px;
+    right: 180px;
+    font-family: 'Coolvetica';  
+    opacity: 0; /* Start with zero opacity */
+    animation: fadeIn 1s ease-in forwards 1.7s; /* Adds delay and retains end opacity */
+    max-height: 100vh;  
+    overflow-y: auto; 
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+  
+  /* Styling for the about box */
+  .about-box {
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+    color: #181818;
+    padding-inline: 100px;
+    text-align: center;
+    background-color: #F8F4E3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: .2em;
+    font-family: 'Coolvetica';   /* Font for the about box */
+    margin-bottom: 20px;         /* Add some space below the box */
+  }
+  
+  /* Styling for the paragraph below the box */
+  .about-p {
+    font-size: 80px;
+    font-family: 'Coolvetica'; 
+    text-align: center;         
+    max-width: 800px;          
+  }
+
+.about-text {
+    color: #F8F4E3;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    max-width: 2000px;
+    padding-bottom: 50px;
+}
+  

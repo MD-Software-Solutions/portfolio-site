@@ -1,0 +1,114 @@
+$primary-color: #2E4A62;
+$Ivory: #F8F4E3;
+
+.my-logo {
+    width: 80px;
+    height: auto;
+}
+
+.home-page {
+    padding-left: 770px;
+    padding-right: 0;
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 45%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-width: 90%;
+    }
+    h1 {
+        color: $Ivory;
+        font-size: 110px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+        letter-spacing: 4.7px;
+
+        img {
+            width: 82px;
+            margin-left: 30px;
+            margin-right: 0px;
+            height: auto;
+            opacity: 0;
+            animation: rotateIn 1s linear both;
+            animation-delay: 1.4s;
+        }
+    }
+
+    h2 {
+        color: hsl(0, 2%, 64%);
+        font-size: 25px;
+        margin-top: 20px;
+        font-weight: 300;
+        width: fit-content;
+        padding-bottom: 8px;
+        position: relative;
+        font-family: "Coolvetica";
+        letter-spacing: 3px;
+        font-style: italic;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+
+    
+
+    .flat-button {
+        color: $Ivory;
+        font-size: 20px;
+        font-family: "Coolvetica";
+        font-weight: 600;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 3px solid $Ivory;
+        border-radius: .3em;
+        float: left;
+        margin-top: 25px;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+        transition: all .35s ease-out;
+
+        &:hover {
+            color: #000;
+            background-color: $Ivory;
+        }
+    }
+
+    
+}
+
+@keyframes underline_animation {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.my-photo { 
+    margin-left: 175px;
+    margin-top: 120px;
+    width: 15%;
+    height: auto;
+    position: absolute;
+    border-radius: .3em;
+    border: 2px solid $Ivory;
+}
+
+
+
+// .underline-this::after {
+//     content: '';
+//     background: linear-gradient(to right, #FFFFFF, #FBF9F0, #F9F3E8, $Ivory);
+//     height: 8px;
+//     width: 100%;
+//     left: 0;
+//     bottom: 0;
+//     border-radius: 1em;
+//     position: absolute;
+//     animation: underline_animation 1s ease forwards;
+// }
+
