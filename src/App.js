@@ -17,6 +17,7 @@ function App() {
         
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>
     </>
