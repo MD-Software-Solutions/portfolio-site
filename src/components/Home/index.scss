@@ -98,17 +98,16 @@ $Ivory: #F8F4E3;
     border: 2px solid $Ivory;
 }
 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
 
-// .underline-this::after {
-//     content: '';
-//     background: linear-gradient(to right, #FFFFFF, #FBF9F0, #F9F3E8, $Ivory);
-//     height: 8px;
-//     width: 100%;
-//     left: 0;
-//     bottom: 0;
-//     border-radius: 1em;
-//     position: absolute;
-//     animation: underline_animation 1s ease forwards;
-// }
-
+.pd-inline-15 {
+    padding-inline: 15px;
+}

@@ -40,10 +40,21 @@ const Home = () => {
                 />
                 <br />
               </h1>
-              <Typewriter />              
-              <Link to="/contact" className="flat-button">
-                CONTACT ME
-              </Link>
+              <Typewriter />  
+
+              <div className="flex-row">
+                <div className='flex-column'>
+                  <Link to="/contact" className="flat-button">
+                    CONTACT ME
+                  </Link>
+                </div>
+
+                <div className='flex-column pd-inline-15'>
+                  <Link to="/portfolio" className="flat-button">
+                    VIEW MY PROJECTS ➜
+                  </Link>
+                </div>
+              </div>
 
             </div>
             <div>

@@ -1,0 +1,107 @@
+.container-class-c {
+    margin-left: 150px;
+    max-height: 100vh;  
+    overflow-y: auto; 
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards 1.7s;
+    margin-top: 14px;
+    font-family: "coolvetica";
+    margin-right: 23px;
+}
+
+.about-box-c {
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+    color: #181818;
+    padding-inline: 100px;
+    text-align: center;
+    background-color: #F8F4E3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: .2em;
+    font-family: 'Coolvetica';   /* Font for the about box */
+    margin-bottom: 20px;    /* Add some space below the box */
+}
+
+.card-icon-c {
+    text-align: center;
+}
+
+.icon-c {
+    width: 100px;
+    height: 100px;
+}
+
+.card-element-c {
+    background-color: #F8F4E3;
+    border-radius: 1em;
+}
+
+a {
+    color: #181818;
+    text-decoration: none;
+}
+
+a:active {
+    color: #181818;
+    text-decoration: none;
+}
+
+.flex-row-c {
+    display: flex;
+    flex-direction: row;
+    margin-left: 7px;
+}
+
+.flex-col-c {
+    flex-direction: column;
+    display: flex;
+    padding-inline: 67px;
+}
+
+.flex-col-c:nth-child(1) {
+    padding-left: 0;
+}
+
+.flex-col-c:last-child {
+    padding-right: 0;
+}
+
+.pd45 {
+    padding-inline: 50px;
+}
+
+.card-text-c {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    color: #181818;
+    font-size: 20px;
+}
+
+.hover-effect-zoom:hover {
+    transition: all .5s ease-out;
+    font-size: 22px;
+    cursor: default;
+}
+
+.hover-effect-zoom:not(:hover) {
+    transition: all .5s ease-out;
+    font-size: 20px;
+}
+
+.card-header-c {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 50px;
+    font-weight: 400;
+    color: #181818;
+    font-size: 35px;
+    letter-spacing: 1.6px;
+    text-align: center;
+}
+
+.pd35 {
+    padding-inline: 100px;
+}

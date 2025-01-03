@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './index.scss';
 
 const Typewriter = () => {
-    const texts = ["Student", "Web Developer", "Python Expert", "Innovator", "Tutor"];
+    const texts = ["Student", "Web Developer", "Python Expert", "Innovator", "Tutor", "Researcher", "Programmer"];
     const [displayedText, setDisplayedText] = useState('');
     const [textIndex, setTextIndex] = useState(0);
     const [charIndex, setCharIndex] = useState(0);
